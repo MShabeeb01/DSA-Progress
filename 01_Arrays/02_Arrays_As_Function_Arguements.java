@@ -11,7 +11,7 @@ public class ArraysCC {
         }
     }    
 
-// Creating the main function.
+// Creating the main function
 
     public static void main(String args[]) {
         int marks[] = {97,91,80};
