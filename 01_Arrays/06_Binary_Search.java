@@ -49,6 +49,6 @@ public class ArraysCC {
 
 //If the mid is smaller than key it means the key must be on the right side then we split the array where end will be same but start=(mid+1).
 
-//This continues until mid == key. 
+//This continues until mid == key
 
 // Time complexity is O(log n) # Faster than Linear Search O(n). 
