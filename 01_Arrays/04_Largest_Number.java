@@ -18,5 +18,5 @@ public class ArraysCC{
     }
 }
 
-//If the current element numbers[i] is greater than the current largest, update largest.This way, largest always stores the biggest value seen so far.
+//If the current element numbers[i] is greater than the current largest, update largest.This way,largest always stores the biggest value seen so far.
 //The concept here is finding the maximum (largest) element in an array by scanning it linearly (one by one).
