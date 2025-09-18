@@ -11,7 +11,7 @@ public class ArraysCC {
             cs = cs + numbers[i];
 
             if (cs < 0) {
-                cs = 0; // reset if current sum is negative
+                cs = 0; // reset if current sum is negative.
             }
 
             ms = Math.max(ms, cs);
