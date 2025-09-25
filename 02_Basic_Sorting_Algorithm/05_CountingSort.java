@@ -30,7 +30,7 @@ public class ArraysCC {
         }
     }
 
-    // Function to print the array
+    // Function to print the array. 
     public static void printarr(int arr[]) {
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
