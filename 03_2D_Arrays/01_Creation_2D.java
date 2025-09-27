@@ -26,7 +26,7 @@ public class Matrices {
         System.out.println("Enter elements of the 3x3 matrix:");
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
-                matrix[i][j] = sc.nextInt(); // user enters numbers
+                matrix[i][j] = sc.nextInt(); // user enters numbers. 
             }
         }
 
