@@ -8,7 +8,7 @@ public class Matrices {
             for (int j = 0; j < matrix[0].length; j++) {   // loop through columns
                 if (matrix[i][j] == key) {                 // check if element matches key
                     System.out.println("Found at Cell (" + i + ", " + j + ")");
-                    return true;                           // key found, return true
+                    return true;                           // key found, return true.
                 }
             }
         }
