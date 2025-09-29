@@ -8,7 +8,7 @@ public class ArraysCC {
         int row = 0;                     // first row
         int col = matrix[0].length - 1;  // last column
 
-        // Loop until we go out of matrix bounds
+        // Loop until we go out of matrix bounds. 
         while (row < matrix.length && col >= 0) {
 
             // Case 1: Key is found
