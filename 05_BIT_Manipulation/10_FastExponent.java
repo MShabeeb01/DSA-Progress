@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Operations {
 
-    // Function to calculate a^n using fast exponentiation
+    // Function to calculate a^n using fast exponentiation. 
     public static int FastExpo(int a, int n) {
         int ans = 1; // Initialize answer to 1
         while (n > 0) {
