@@ -22,7 +22,7 @@ public class Operations {
         int a = sc.nextInt(); // Input base
 
         System.out.print("Enter the exponent (n): ");
-        int n = sc.nextInt(); // Input exponent
+        int n = sc.nextInt(); // Input exponent. 
 
         int result = FastExpo(a, n); // Call FastExpo function
         System.out.println(a + "^" + n + " = " + result); // Print the result
