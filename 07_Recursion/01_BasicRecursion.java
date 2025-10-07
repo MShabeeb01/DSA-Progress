@@ -2,7 +2,7 @@ public class RecursionExample {
 
     // Recursive method to calculate factorial
     static int factorial(int n) {
-        // Base case: when n becomes 1, stop recursion
+        // Base case: when n becomes 1, stop recursion.
         // because 1! = 1
         if (n == 1) {
             return 1;
