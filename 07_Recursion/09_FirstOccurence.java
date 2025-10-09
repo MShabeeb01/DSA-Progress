@@ -3,7 +3,7 @@ public class RecursionBasics {
     // Method to find the first occurrence of 'key' in the array
     // arr[] -> array to search in
     // key -> value to search for
-    // i -> current index
+    // i -> current index.
     public static int FirstOccurance(int arr[], int key, int i) {
         // Base case: if we reach the end of the array, return -1 (not found)
         if (i == arr.length) {
