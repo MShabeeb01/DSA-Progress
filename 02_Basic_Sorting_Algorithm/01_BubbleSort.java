@@ -65,3 +65,35 @@ printarr(int arr[])
 
 ==================================================
 */
+
+/*
+================ ITERATION =================
+
+// Initial Array = {5, 4, 1, 3, 2}
+
+// Pass 1 (turn = 0)
+// Compare 5 & 4 -> Swap -> {4, 5, 1, 3, 2}
+// Compare 5 & 1 -> Swap -> {4, 1, 5, 3, 2}
+// Compare 5 & 3 -> Swap -> {4, 1, 3, 5, 2}
+// Compare 5 & 2 -> Swap -> {4, 1, 3, 2, 5}
+// Largest element (5) reaches its correct position.
+
+// Pass 2 (turn = 1)
+// Compare 4 & 1 -> Swap -> {1, 4, 3, 2, 5}
+// Compare 4 & 3 -> Swap -> {1, 3, 4, 2, 5}
+// Compare 4 & 2 -> Swap -> {1, 3, 2, 4, 5}
+// Largest unsorted element (4) reaches its correct position.
+
+// Pass 3 (turn = 2)
+// Compare 1 & 3 -> No Swap
+// Compare 3 & 2 -> Swap -> {1, 2, 3, 4, 5}
+// Largest unsorted element (3) reaches its correct position.
+
+// Pass 4 (turn = 3)
+// Compare 1 & 2 -> No Swap
+// Array is already sorted.
+
+// Final Sorted Array = {1, 2, 3, 4, 5}
+
+==================================================
+*/
