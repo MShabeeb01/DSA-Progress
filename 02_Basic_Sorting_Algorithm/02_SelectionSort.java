@@ -40,3 +40,39 @@ public class ArraysCC {
         Printarr(arr); // Call Printarr function to print sorted array
     }
 }
+
+
+// Example Iteration
+// Array = {5, 3, 8, 1, 4}
+
+// Pass 1 (i = 0)
+// minpos = 0 (5)
+// Compare 5 with 3 → minpos = 1
+// Compare 3 with 8 → no change
+// Compare 3 with 1 → minpos = 3
+// Compare 1 with 4 → no change
+// Swap 5 and 1
+// Array = {1, 3, 8, 5, 4}
+
+// Pass 2 (i = 1)
+// minpos = 1 (3)
+// Compare 3 with 8 → no change
+// Compare 3 with 5 → no change
+// Compare 3 with 4 → no change
+// No swap needed
+// Array = {1, 3, 8, 5, 4}
+
+// Pass 3 (i = 2)
+// minpos = 2 (8)
+// Compare 8 with 5 → minpos = 3
+// Compare 5 with 4 → minpos = 4
+// Swap 8 and 4
+// Array = {1, 3, 4, 5, 8}
+
+// Pass 4 (i = 3)
+// minpos = 3 (5)
+// Compare 5 with 8 → no change
+// No swap needed
+// Array = {1, 3, 4, 5, 8}
+
+// Final Sorted Array = {1, 3, 4, 5, 8}
